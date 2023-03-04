@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {   
+    font-size:  20px;
+    font-family: 'Roboto', sans-serif;   
+    background-color: grey;
+}
+.avatar{
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 25);
+}
+.info h4{
+    
+    margin: 1;
+    
+}
+
+.ALLcode{
+    max-width: 750px;
+    margin: auto;
+}
+a {
+   color: grey;
+   text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.desk{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.FormForName label{
+    display: block;
+}
+.FormForName input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0 10px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+.FormForEmail label{
+    display: block;
+}
+.FormForEmail input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0 10px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+.FormForText label{
+    display: block;
+}
+.FormForText input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 20px 0 1px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.info-text{
+    margin-left: 40px;
+
+
+
+}
+.FormForBut{
+    background: #ffe5e5;
+    padding: 10px 15px;
+    color: black;
+    border: none;
+    font-family: inherit;
+    border-radius: 20px;
+
+
+}
+.FormForBut:hover{
+    opacity: 0.9;
+
+}
